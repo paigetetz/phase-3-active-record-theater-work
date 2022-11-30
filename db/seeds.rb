@@ -1,0 +1,18 @@
+Role.create(character_name: "Bean")
+Role.create(character_name: "Elfo")
+Role.create(character_name: "Luci")
+Role.create(character_name: "King Zog")
+Role.create(character_name: "Queen Dagmar")
+Role.create(character_name: "Oona")
+
+
+Audition.create(actor: "Tress MacNeille", location: "LA", phone: 3333333333, hired: false, role_id: 5)
+Audition.create(actor: "Abbi Jacobson", location: "NYC", phone: 4444444444, hired: false, role_id: 1)
+Audition.create(actor: "Nat Faxon", location: "LA", phone: 5555555555, hired: false, role_id: 2)
+Audition.create(actor: "John DiMaggio", location: "Miami", phone: 2222222222, hired: false, role_id: 4)
+Audition.create(actor: "Eric Andre", location: "Brooklyn", phone: 1111111111, hired: false, role_id: 3)
+Audition.create(actor: "Matt Berry", location: "London", phone: 6666666666, hired: false, role_id: 2)
+Audition.create(actor: "Billy West", location: "New NYC", phone: 7777777777, hired: false, role_id: 4)
+Audition.create(actor: "Maurice LaMarche", location: "Pasendena", phone: 888888888, hired: false, role_id: 3)
+Audition.create(actor: "David Herman", location: "NYC", phone: 9999999999, hired: false, role_id: 3)
+Audition.create(actor: "Lucy Montgomery", location: "LA", phone: 3424156789, hired: false, role_id: 6)
